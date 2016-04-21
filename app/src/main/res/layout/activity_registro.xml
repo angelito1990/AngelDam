@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro"
+            android:layout_gravity="center"
+            android:layout_marginLeft="90dp"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nombre"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/txtNombre"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="apellidos"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/txtApellidos"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="email"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/txtEmail"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:password="true"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/txtPassword"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAceptarRegistro"
+            android:layout_marginLeft="30dp"
+            android:text="Aceptar"/>
+    </LinearLayout>
+
+</LinearLayout>
